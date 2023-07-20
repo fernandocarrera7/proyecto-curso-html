@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="cris.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <title>Cristiano Ronaldo</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            margin-top: 120px;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2 style=" padding: 20px; margin: 0px; background-color: #111; color: #92a4ff; font-size: 80px;font-family:'Tangerine', cursiva ;">Cristiano Ronaldo</h2>
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a class="active" href="preferencia.html">Preferencia</a></li>
+                <li><a href="audiovisuales.html">AudioVisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Los balones de oro de Cristiano Ronaldo</h2>
+    <hr>
+
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(207, 207, 207);">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+
+            </colgroup>
+            <th></th>
+            <th>Balon de Oro</th>
+            <th>Goles en SL</th>
+
+            <tr>
+                <td>Manchester United</td>
+                <td>Primer Balon</td>
+                <td>11 goles</td>
+            </tr>
+            <tr>
+                <td>Real Madrod</td>
+                <td>Segundo Balon</td>
+                <td>17 goles</td>
+            </tr>
+            <tr>
+                <td>Real Madrid</td>
+                <td>Tercer Balon</td>
+                <td>16 goles</td>
+            </tr>
+            <tr>
+                <td>Real Madrid</td>
+                <td>cuarto Balon</td>
+                <td>15 goles</td>
+            </tr>
+            <tr>
+                <td>Real Madrid</td>
+                <td>Quinto Balon</td>
+                <td>17 goles</td>
+            </tr>
+        </table>
+
+    </div>
+
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023 </p>
+    </footer>
+
+</body>
+
+</html>
